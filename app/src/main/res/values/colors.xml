@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#152238</color>
+    <color name="colorPrimaryTransparent">#F9171F24</color>
+    <color name="buttonColor">#6D7C9F</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#E3EDF4</color>
+    <color name="buttonTextColor">#DFF2F6</color>
+    <color name="colorComplement">#241C17</color>
+    <color name="colorTriadic">#1C1724</color>
+    <color name="colorArchaic">#1C1724</color>
+</resources>

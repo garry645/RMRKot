@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/finishedBT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_design"
+            android:text="@string/finish"
+            android:textColor="@color/buttonTextColor" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_above="@+id/finishedBT">
+
+            <LinearLayout
+                android:id="@+id/imageLL1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/carImage1"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorAccent"
+                    android:contentDescription="@string/carimage1"
+                    android:scaleType="center"
+                    android:src="@drawable/plus_icon" />
+
+                <ImageButton
+                    android:id="@+id/carImage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/colorAccent"
+                    android:contentDescription="@string/carimage2"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/plus_icon"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/carImage3"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/colorAccent"
+                    android:contentDescription="@string/carimage3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/plus_icon"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/carImage4"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/colorAccent"
+                    android:contentDescription="@string/carimage4"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/plus_icon"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/carImage5"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/colorAccent"
+                    android:contentDescription="@string/carimage5"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/plus_icon"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/carImage6"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/colorAccent"
+                    android:contentDescription="@string/carimage6"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/plus_icon"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/carImage7"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/colorAccent"
+                    android:contentDescription="@string/carimage7"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/plus_icon"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/carImage8"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/colorAccent"
+                    android:contentDescription="@string/carimage8"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/plus_icon"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/carImage9"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/colorAccent"
+                    android:contentDescription="@string/carimage9"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/plus_icon"
+                    android:visibility="gone" />
+
+                <ImageButton
+                    android:id="@+id/carImage10"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="10dp"
+                    android:adjustViewBounds="true"
+                    android:background="@color/colorAccent"
+                    android:contentDescription="@string/carimage10"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/plus_icon"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "665000798955",
+    "firebase_url": "https://ratemyride-d3e49.firebaseio.com",
+    "project_id": "ratemyride-d3e49",
+    "storage_bucket": "ratemyride-d3e49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665000798955:android:c5f6b90f23aed87d056cae",
+        "android_client_info": {
+          "package_name": "com.garry.rmrkot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665000798955-e2dpi2f05m3pkdfgel478bik0d2a36lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9j4Qd2evFo12lUwlfrFWmDG6g15Lob6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665000798955-e2dpi2f05m3pkdfgel478bik0d2a36lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665000798955:android:d8d30f4bb41ef4af",
+        "android_client_info": {
+          "package_name": "com.ratemyride.garry.ratemyride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665000798955-aj8lnqppq6okvdfvtk1hoauhmp014ft6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ratemyride.garry.ratemyride",
+            "certificate_hash": "a627f87cbea6ed260ec96503d824107017b69d3f"
+          }
+        },
+        {
+          "client_id": "665000798955-e2dpi2f05m3pkdfgel478bik0d2a36lh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9j4Qd2evFo12lUwlfrFWmDG6g15Lob6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665000798955-e2dpi2f05m3pkdfgel478bik0d2a36lh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

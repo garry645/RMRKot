@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.garry.rmrkot.LoginFragment"
+        android:label="LoginFragment">
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.garry.rmrkot.SignUpFragment"
+        android:label="SignUpFragment">
+
+        <action
+            android:id="@+id/action_signUpFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_signUpFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+        <action
+            android:id="@+id/action_signUpFragment_to_addPicsFragment"
+            app:destination="@id/addPicsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.garry.rmrkot.FeedFragment"
+        android:label="FeedFragment">
+        <action
+            android:id="@+id/action_feedFragment_to_garageFragment"
+            app:destination="@id/garageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/garageFragment"
+        android:name="com.garry.rmrkot.GarageFragment"
+        android:label="GarageFragment">
+        <action
+            android:id="@+id/action_garageFragment_to_feedFragment"
+            app:destination="@id/feedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPicsFragment"
+        android:name="com.garry.rmrkot.AddPicsFragment"
+        android:label="AddPicsFragment">
+        <action
+            android:id="@+id/action_addPicsFragment_to_garageFragment"
+            app:destination="@id/garageFragment" />
+
+    </fragment>
+</navigation>
